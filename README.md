@@ -9,12 +9,12 @@ Once Helm has been set up correctly, add the repo as follows:
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
-<alias>` to see the charts.
+koobeye` to see the charts.
 
-To install the <chart-name> chart:
+To install the [chart-name] chart:
 
-    helm install my-<chart-name> <alias>/<chart-name>
+    helm install my-chart koobeye/[chart-name]
 
 To uninstall the chart:
 
-    helm delete my-<chart-name>
+    helm delete my-chart
